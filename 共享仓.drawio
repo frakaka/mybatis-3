@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-11T02:41:57.189Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="25jgWDxOF5BpnLAz7dJO" version="13.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-11T03:27:38.607Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="gOVVXCWSKk267SuvJCvC" version="13.6.9" type="github">
   <diagram id="nBoRqi8an5nhjWi_EFpu" name="Page-1">
-    <mxGraphModel dx="2205" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1874" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -115,9 +115,9 @@
         <mxCell id="-klK-5MpFPl4CnDMqHUD-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="-klK-5MpFPl4CnDMqHUD-35" target="-klK-5MpFPl4CnDMqHUD-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-klK-5MpFPl4CnDMqHUD-37" value="卸货到B2C仓，等待调拨或发车" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" vertex="1" connectable="0" parent="-klK-5MpFPl4CnDMqHUD-36">
+        <mxCell id="-klK-5MpFPl4CnDMqHUD-37" value="卸货到B2C仓装车区，等待调拨或发车" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" vertex="1" connectable="0" parent="-klK-5MpFPl4CnDMqHUD-36">
           <mxGeometry x="0.0261" y="-18" relative="1" as="geometry">
-            <mxPoint x="20" y="18" as="offset" />
+            <mxPoint x="82" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-klK-5MpFPl4CnDMqHUD-35" value="拣货人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=9;align=left;" vertex="1" parent="1">
