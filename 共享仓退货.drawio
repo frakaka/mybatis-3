@@ -1,1 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2020-09-11T09:12:31.919Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" version="13.6.9" etag="yi4vb_mbf2NF8cWSCnkm" type="github"><diagram id="lDasjoGCI9Ge9XdN-ZiD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-11T09:34:17.263Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="BjKFCY1WnyrxLQ7nH38A" version="13.6.9" type="github">
+  <diagram id="lDasjoGCI9Ge9XdN-ZiD" name="Page-1">
+    <mxGraphModel dx="1422" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IL83YJGDvUaqYHIbA_YW-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="480" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="IL83YJGDvUaqYHIbA_YW-2" value="货区1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="110" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IL83YJGDvUaqYHIbA_YW-4" value="共享仓退货" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IL83YJGDvUaqYHIbA_YW-5" value="货区2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="110" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IL83YJGDvUaqYHIbA_YW-6" value="货区3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="270" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IL83YJGDvUaqYHIbA_YW-7" value="货区4" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="270" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IL83YJGDvUaqYHIbA_YW-8" value="商品在活动日期，有剩余，同时该商品的供应商，不打算支付仓储费用或者该商品更换了供应商，供应商请求退货&lt;div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="450" y="415" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IL83YJGDvUaqYHIbA_YW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IL83YJGDvUaqYHIbA_YW-9" target="IL83YJGDvUaqYHIbA_YW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IL83YJGDvUaqYHIbA_YW-14" value="请求退货" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IL83YJGDvUaqYHIbA_YW-13">
+          <mxGeometry x="-0.2444" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IL83YJGDvUaqYHIbA_YW-9" value="供应商退货人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="331" y="600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IL83YJGDvUaqYHIbA_YW-10" value="收货员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="331" y="450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IL83YJGDvUaqYHIbA_YW-15" value="检查是否是委托供应商" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IL83YJGDvUaqYHIbA_YW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IL83YJGDvUaqYHIbA_YW-16" target="IL83YJGDvUaqYHIbA_YW-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="346" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IL83YJGDvUaqYHIbA_YW-18" value="搬货装车" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IL83YJGDvUaqYHIbA_YW-17">
+          <mxGeometry x="-0.4423" y="-19" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IL83YJGDvUaqYHIbA_YW-16" value="供应商退货人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="331" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
