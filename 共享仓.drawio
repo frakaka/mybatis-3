@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2020-09-11T01:37:19.359Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" version="13.6.9" etag="zIInXe6_zuQw0Tuncp2-" type="github"><diagram id="nBoRqi8an5nhjWi_EFpu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-11T02:13:52.763Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="ucBzcw9pTxbSpC3lOO7W" version="13.6.9" type="github">
+  <diagram id="nBoRqi8an5nhjWi_EFpu" name="Page-1">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-klK-5MpFPl4CnDMqHUD-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;textOpacity=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="60" width="540" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="-klK-5MpFPl4CnDMqHUD-2" value="共享仓收货" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="310" y="20" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-klK-5MpFPl4CnDMqHUD-3" value="货区1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="190" y="100" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-klK-5MpFPl4CnDMqHUD-4" value="货区2" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="414" y="100" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-klK-5MpFPl4CnDMqHUD-5" value="货区3" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-klK-5MpFPl4CnDMqHUD-6" value="货区4" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="414" y="320" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-klK-5MpFPl4CnDMqHUD-7" value="仓库收货人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="240" y="490" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-klK-5MpFPl4CnDMqHUD-8" value="供应商送货人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="240" y="720" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-klK-5MpFPl4CnDMqHUD-9" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=24;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="713" as="sourcePoint" />
+            <mxPoint x="255" y="603" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-klK-5MpFPl4CnDMqHUD-10" value="收货" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;" vertex="1" connectable="0" parent="-klK-5MpFPl4CnDMqHUD-9">
+          <mxGeometry x="-0.3273" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-klK-5MpFPl4CnDMqHUD-12" value="供应商送的商品是否有委托关系， 有委托才能收货" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=9;position2=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="60" y="480" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-klK-5MpFPl4CnDMqHUD-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="-klK-5MpFPl4CnDMqHUD-13" target="-klK-5MpFPl4CnDMqHUD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-klK-5MpFPl4CnDMqHUD-15" value="自带装货人员的供应商卸货" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" vertex="1" connectable="0" parent="-klK-5MpFPl4CnDMqHUD-14">
+          <mxGeometry x="-0.0647" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-klK-5MpFPl4CnDMqHUD-13" value="送货人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=9;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
