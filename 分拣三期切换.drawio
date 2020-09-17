@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-17T05:47:02.504Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="AGwCe9vh9yKbnoQQgreR" version="13.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-17T06:04:23.770Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="mGLajkUsuNy8J_9yqzvu" version="13.7.2" type="github">
   <diagram id="Np4Y9l7Cu0FXIEOhbT4F" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -345,14 +345,17 @@
         <mxCell id="IJB8T5RFrhndQMEHRoPS-28" value="分拣改造三期上线示意图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000033;fontStyle=1;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="400" y="1100" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IJB8T5RFrhndQMEHRoPS-29" value="&lt;h1&gt;验证过程&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="1350" width="190" height="120" as="geometry" />
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-29" value="&lt;h1&gt;验证过程&lt;/h1&gt;&lt;p&gt;1. 老系统有两个开关，验证开关；切换开关；每个仓库的这两个开关互斥&lt;/p&gt;&lt;p&gt;2.验证开关打开， 写接口会双写，异步写数据到新系统；读接口会异步读新系统数据&lt;/p&gt;&lt;p&gt;3. 切换开关打开，读写接口走新系统，需要&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;记录下切换时间&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1350" width="240" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="IJB8T5RFrhndQMEHRoPS-32" value="&lt;h1&gt;上线过程&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1130" width="190" height="120" as="geometry" />
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-32" value="&lt;h1&gt;上线过程&lt;/h1&gt;&lt;p&gt;1. 验证完成后，需要将&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;每一个仓库验证过程中记录的切换时间之后的数据&lt;/font&gt;&lt;/b&gt;，迁移到老DB上去。&lt;/p&gt;&lt;p&gt;2. 数据迁移完成后，新系统DB切换为老DB&lt;/p&gt;&lt;p&gt;3. 完成WebUI/App CLB切换&lt;/p&gt;&lt;p&gt;4. 观察2天后，老系统下线&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1130" width="210" height="200" as="geometry" />
         </mxCell>
         <mxCell id="IJB8T5RFrhndQMEHRoPS-33" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="835" y="274" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-35" value="&lt;h1&gt;环境隔离&lt;/h1&gt;&lt;p&gt;1. 新老系统，在git上表现为不同项目。&lt;/p&gt;&lt;p&gt;2. 新系统DB，需要新申请实例；新老系统redis共用&lt;/p&gt;&lt;p&gt;3. 新db申请后，需在新系统上线前一天，完成数据同步&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1139" width="260" height="161" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
