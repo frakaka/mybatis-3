@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-17T06:04:23.770Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="mGLajkUsuNy8J_9yqzvu" version="13.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-17T06:29:07.203Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="YayT45-u-8b2_c2X0vCv" version="13.7.2" type="github">
   <diagram id="Np4Y9l7Cu0FXIEOhbT4F" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -354,8 +354,8 @@
         <mxCell id="IJB8T5RFrhndQMEHRoPS-33" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="835" y="274" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="IJB8T5RFrhndQMEHRoPS-35" value="&lt;h1&gt;环境隔离&lt;/h1&gt;&lt;p&gt;1. 新老系统，在git上表现为不同项目。&lt;/p&gt;&lt;p&gt;2. 新系统DB，需要新申请实例；新老系统redis共用&lt;/p&gt;&lt;p&gt;3. 新db申请后，需在新系统上线前一天，完成数据同步&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="1139" width="260" height="161" as="geometry" />
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-35" value="&lt;h1&gt;环境隔离&lt;/h1&gt;&lt;p&gt;1. 新老系统，在git上表现为不同项目。&lt;/p&gt;&lt;p&gt;2. 新系统DB，需要新申请实例；新老系统redis共用&lt;/p&gt;&lt;p&gt;3. 新db申请后，需在新系统上线前一天，完成数据同步&lt;/p&gt;&lt;p&gt;4. 新服务独立部署&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1139" width="260" height="181" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
