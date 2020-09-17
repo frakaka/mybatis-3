@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-17T06:29:07.203Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="YayT45-u-8b2_c2X0vCv" version="13.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-17T10:36:03.800Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="lJj2-RKtYwu2fi2TWiu1" version="13.7.2" type="github">
   <diagram id="Np4Y9l7Cu0FXIEOhbT4F" name="Page-1">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -321,23 +321,49 @@
         <mxCell id="IJB8T5RFrhndQMEHRoPS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IJB8T5RFrhndQMEHRoPS-12" target="IJB8T5RFrhndQMEHRoPS-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IJB8T5RFrhndQMEHRoPS-12" target="IJB8T5RFrhndQMEHRoPS-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-55" value="打开验证开关" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IJB8T5RFrhndQMEHRoPS-51">
+          <mxGeometry x="0.2444" y="3" relative="1" as="geometry">
+            <mxPoint x="-22" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IJB8T5RFrhndQMEHRoPS-12" target="IJB8T5RFrhndQMEHRoPS-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-60" value="关闭验证开关" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IJB8T5RFrhndQMEHRoPS-59">
+          <mxGeometry x="0.6916" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IJB8T5RFrhndQMEHRoPS-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-69" value="打开切换开关" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IJB8T5RFrhndQMEHRoPS-67">
+          <mxGeometry x="0.7536" y="-1" relative="1" as="geometry">
+            <mxPoint x="20" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IJB8T5RFrhndQMEHRoPS-12" value="PickingApi" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fontColor=#FFFFFF;strokeColor=none;fillColor=#00CCCC;" vertex="1" parent="1">
-          <mxGeometry x="775" y="1439" width="120" height="80" as="geometry" />
+          <mxGeometry x="780" y="1429" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IJB8T5RFrhndQMEHRoPS-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IJB8T5RFrhndQMEHRoPS-13" target="IJB8T5RFrhndQMEHRoPS-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IJB8T5RFrhndQMEHRoPS-13" value="PickingService" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fontColor=#FFFFFF;strokeColor=none;fillColor=#00CCCC;" vertex="1" parent="1">
-          <mxGeometry x="665" y="1579" width="120" height="80" as="geometry" />
+          <mxGeometry x="670" y="1569" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IJB8T5RFrhndQMEHRoPS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IJB8T5RFrhndQMEHRoPS-14" target="IJB8T5RFrhndQMEHRoPS-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IJB8T5RFrhndQMEHRoPS-14" value="ScheduleService" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;fontColor=#FFFFFF;strokeColor=none;fillColor=#00CCCC;" vertex="1" parent="1">
-          <mxGeometry x="885" y="1579" width="120" height="80" as="geometry" />
+          <mxGeometry x="890" y="1569" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IJB8T5RFrhndQMEHRoPS-21" value="老分拣DB" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=1;fontColor=#FFFFFF;strokeColor=none;fillColor=#00CCCC;" vertex="1" parent="1">
-          <mxGeometry x="805" y="1689" width="60" height="80" as="geometry" />
+          <mxGeometry x="810" y="1679" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IJB8T5RFrhndQMEHRoPS-25" value="新分拣DB" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=1;fontColor=#FFFFFF;strokeColor=none;fillColor=#97D077;" vertex="1" parent="1">
           <mxGeometry x="210" y="1689" width="60" height="80" as="geometry" />
@@ -345,10 +371,10 @@
         <mxCell id="IJB8T5RFrhndQMEHRoPS-28" value="分拣改造三期上线示意图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000033;fontStyle=1;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="400" y="1100" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IJB8T5RFrhndQMEHRoPS-29" value="&lt;h1&gt;验证过程&lt;/h1&gt;&lt;p&gt;1. 老系统有两个开关，验证开关；切换开关；每个仓库的这两个开关互斥&lt;/p&gt;&lt;p&gt;2.验证开关打开， 写接口会双写，异步写数据到新系统；读接口会异步读新系统数据&lt;/p&gt;&lt;p&gt;3. 切换开关打开，读写接口走新系统，需要&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;记录下切换时间&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-29" value="&lt;h1&gt;验证过程&lt;/h1&gt;&lt;p&gt;1. 老系统有两个开关，验证开关；切换开关；每个仓库的这两个开关互斥&lt;/p&gt;&lt;p&gt;2.验证开关打开， 写接口会双写，异步写数据到新系统；读接口会异步读新系统数据&lt;/p&gt;&lt;p&gt;3. 切换开关打开，读写接口走新系统，切换前，需要将仓库DB换为老DB&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1060" y="1350" width="240" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="IJB8T5RFrhndQMEHRoPS-32" value="&lt;h1&gt;上线过程&lt;/h1&gt;&lt;p&gt;1. 验证完成后，需要将&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;每一个仓库验证过程中记录的切换时间之后的数据&lt;/font&gt;&lt;/b&gt;，迁移到老DB上去。&lt;/p&gt;&lt;p&gt;2. 数据迁移完成后，新系统DB切换为老DB&lt;/p&gt;&lt;p&gt;3. 完成WebUI/App CLB切换&lt;/p&gt;&lt;p&gt;4. 观察2天后，老系统下线&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-32" value="&lt;h1&gt;上线过程&lt;/h1&gt;&lt;p&gt;&lt;span&gt;1. 所有仓库完成切换后，新系统DB已全部切换为老DB&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;3. 完成WebUI/App CLB切换&lt;/p&gt;&lt;p&gt;4. 观察2天后，老系统下线&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="1130" width="210" height="200" as="geometry" />
         </mxCell>
         <mxCell id="IJB8T5RFrhndQMEHRoPS-33" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -356,6 +382,99 @@
         </mxCell>
         <mxCell id="IJB8T5RFrhndQMEHRoPS-35" value="&lt;h1&gt;环境隔离&lt;/h1&gt;&lt;p&gt;1. 新老系统，在git上表现为不同项目。&lt;/p&gt;&lt;p&gt;2. 新系统DB，需要新申请实例；新老系统redis共用&lt;/p&gt;&lt;p&gt;3. 新db申请后，需在新系统上线前一天，完成数据同步&lt;/p&gt;&lt;p&gt;4. 新服务独立部署&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1060" y="1139" width="260" height="181" as="geometry" />
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-36" value="" style="fillColor=#36B37E;strokeColor=none;rounded=1;arcSize=50;fontColor=#000033;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1850" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-37" value="" style="shape=ellipse;strokeColor=none;fillColor=#ffffff" vertex="1" parent="IJB8T5RFrhndQMEHRoPS-36">
+          <mxGeometry x="1" y="0.5" width="16" height="16" relative="1" as="geometry">
+            <mxPoint x="-18" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-38" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.atlassian.check;strokeColor=#ffffff;strokeWidth=2" vertex="1" parent="IJB8T5RFrhndQMEHRoPS-36">
+          <mxGeometry y="0.5" width="10" height="8" relative="1" as="geometry">
+            <mxPoint x="6" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-39" value="仓库验证开关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000033;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="100" y="1850" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-40" value="" style="strokeColor=none;rounded=1;arcSize=50;fontColor=#000033;fillColor=#CC0066;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1880" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-41" value="" style="shape=ellipse;strokeColor=none;fillColor=#ffffff" vertex="1" parent="IJB8T5RFrhndQMEHRoPS-40">
+          <mxGeometry x="1" y="0.5" width="16" height="16" relative="1" as="geometry">
+            <mxPoint x="-18" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-42" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.atlassian.check;strokeColor=#ffffff;strokeWidth=2" vertex="1" parent="IJB8T5RFrhndQMEHRoPS-40">
+          <mxGeometry y="0.5" width="10" height="8" relative="1" as="geometry">
+            <mxPoint x="6" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-43" value="仓库切换开关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000033;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="100" y="1880" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IJB8T5RFrhndQMEHRoPS-47" target="IJB8T5RFrhndQMEHRoPS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-54" value="异步写，异步读数据，如有错误则报警" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IJB8T5RFrhndQMEHRoPS-53">
+          <mxGeometry x="-0.3538" relative="1" as="geometry">
+            <mxPoint x="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-47" value="" style="fillColor=#36B37E;strokeColor=none;rounded=1;arcSize=50;fontColor=#000033;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1459" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-48" value="" style="shape=ellipse;strokeColor=none;fillColor=#ffffff" vertex="1" parent="IJB8T5RFrhndQMEHRoPS-47">
+          <mxGeometry x="1" y="0.5" width="17" height="16" relative="1" as="geometry">
+            <mxPoint x="-19" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-49" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.atlassian.check;strokeColor=#ffffff;strokeWidth=2" vertex="1" parent="IJB8T5RFrhndQMEHRoPS-47">
+          <mxGeometry y="0.5" width="10" height="8" relative="1" as="geometry">
+            <mxPoint x="6" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IJB8T5RFrhndQMEHRoPS-56" target="IJB8T5RFrhndQMEHRoPS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-56" value="" style="fillColor=#36B37E;strokeColor=none;rounded=1;arcSize=50;fontColor=#000033;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1425" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-57" value="" style="shape=ellipse;strokeColor=none;fillColor=#9AD9BE" vertex="1" parent="IJB8T5RFrhndQMEHRoPS-56">
+          <mxGeometry x="1" y="0.5" width="16" height="16" relative="1" as="geometry">
+            <mxPoint x="-18" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-58" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.atlassian.check;strokeColor=#9AD9BE;strokeWidth=2" vertex="1" parent="IJB8T5RFrhndQMEHRoPS-56">
+          <mxGeometry y="0.5" width="10" height="8" relative="1" as="geometry">
+            <mxPoint x="6" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-62" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1431" width="8" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-64" value="" style="strokeColor=none;rounded=1;arcSize=50;fontColor=#000033;fillColor=#CC0066;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1490" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-65" value="" style="shape=ellipse;strokeColor=none;fillColor=#ffffff" vertex="1" parent="IJB8T5RFrhndQMEHRoPS-64">
+          <mxGeometry x="1" y="0.5" width="16" height="16" relative="1" as="geometry">
+            <mxPoint x="-18" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-66" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.atlassian.check;strokeColor=#ffffff;strokeWidth=2" vertex="1" parent="IJB8T5RFrhndQMEHRoPS-64">
+          <mxGeometry y="0.5" width="10" height="8" relative="1" as="geometry">
+            <mxPoint x="6" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IJB8T5RFrhndQMEHRoPS-64" source="IJB8T5RFrhndQMEHRoPS-66" target="IJB8T5RFrhndQMEHRoPS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IJB8T5RFrhndQMEHRoPS-71" value="同步读新库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IJB8T5RFrhndQMEHRoPS-70">
+          <mxGeometry x="-0.3041" y="-3" relative="1" as="geometry">
+            <mxPoint x="51" y="4" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
